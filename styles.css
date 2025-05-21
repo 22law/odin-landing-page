@@ -27,6 +27,10 @@ a, .secondary-text {
     font-size: 18px;
 }
 
+.information-header, .quote {
+    color: #1f2937;
+}
+
 /* header */
 
 .header-container {
@@ -114,7 +118,6 @@ a {
     height: 120px;
     font-size: 36px;
     font-weight: 900;
-    color: #1f2937;
 }
 
 .boxes {
@@ -135,4 +138,32 @@ a {
     border: 4px solid #3882f6;
     border-radius: 16px;
     margin-bottom: 6px;
+}
+
+/* quote */
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+}
+
+.quote-content {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    padding: 120px 240px 100px;
+}
+
+.quote {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 18px;
+    padding-right: 40px;
 }
